@@ -1,0 +1,8 @@
+2023-09-19T08:09:23+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\functions.php on line 543
+
+2023-09-19T08:10:23+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\functions.php on line 543
+
+2023-09-19T08:10:38+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\functions.php on line 543
+
+2023-09-19T08:10:40+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\functions.php on line 543
+

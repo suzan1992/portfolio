@@ -815,6 +815,60 @@ wp_reset_postdata();
 ?>
 
 
+
+<section class="testimonial text-center">
+  <div class="heading white-heading">
+    <h5>Testimonials</h5>
+    <h2><span class="heading-border"></span>What Are People Saying About Us<span class="heading-border"></span></h2>
+  </div>
+  <div class="container">
+    <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+      <div class="carousel-inner" role="listbox">
+        <?php
+        $testimonial_query = new WP_Query(array(
+          'post_type' => 'testimonials', // Your custom post type name
+          'posts_per_page' => -1, // To fetch all testimonials, use -1
+        ));
+
+        if ($testimonial_query->have_posts()) :
+          $i = 0;
+          while ($testimonial_query->have_posts()) : $testimonial_query->the_post();
+            $client_name = get_field('client_name'); // Replace 'testimonial_title' with your ACF field name for the title
+            $testimonial_content = get_field('testimonial_content'); // Replace 'testimonial_content' with your ACF field name for the content
+            $client_image = get_the_post_thumbnail_url();
+        ?>
+            <div class="carousel-item <?php echo ($i === 0) ? 'active' : ''; ?>">
+              <div class="testimonial4_slide">
+                <img src="<?php echo esc_url($client_image); ?>" class="img-circle img-responsive" alt="<?php echo esc_attr($testimonial_title); ?>" />
+                <?php echo wpautop($testimonial_content); ?>
+                <h4><?php echo $client_name; ?></h4>
+              </div>
+            </div>
+        <?php
+            $i++;
+          endwhile;
+        endif;
+        wp_reset_postdata();
+        ?>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
 <section class="section bg-dark py-5">
   <div class="container text-center">
     <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
