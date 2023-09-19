@@ -1,0 +1,24 @@
+2023-09-17T09:14:48+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\home.php:71
+Stack trace:
+#0 C:\wamp64\www\portfolio.com\www\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\portfolio.com\www\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\portfolio.com\www\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\home.php on line 71
+
+2023-09-17T09:14:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\home.php:71
+Stack trace:
+#0 C:\wamp64\www\portfolio.com\www\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\portfolio.com\www\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\portfolio.com\www\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\home.php on line 71
+
+2023-09-17T09:14:53+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\home.php:71
+Stack trace:
+#0 C:\wamp64\www\portfolio.com\www\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\portfolio.com\www\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\portfolio.com\www\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portfolio.com\www\wp-content\themes\sujan\home.php on line 71
+
