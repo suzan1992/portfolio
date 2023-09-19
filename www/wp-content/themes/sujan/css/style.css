@@ -16766,6 +16766,53 @@ section.faq h2 {
     width: 100%;
     overflow-y: hidden; 
   }
+  .item h3 {
+    font-size: 0.9rem;
+
+    }
+    .portfolio {
+      padding: 0;
+  }
+  .item p {
+    font-size: 0.6rem;
+    margin: 0;
+}
+section.portfolio {
+  padding: 10px 0;
+}
+.portfolio-items .item {
+  padding: 10px;
+}
+section.portfolio button.tab-btn {
+  font-size: 10px;
+  padding: 10px;
+}
+.section.bg-dark.text-center
+{
+  padding:20px 0 10px;
+}
+.stat-card h3 {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.stat-card {
+  margin-bottom: 0;
+}
+.stat-card p {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.section_heading h2 {
+  line-height: 20px;
+  font-size: 12px;
+}
+.section_heading.text-center h5 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.section_heading.text-center h2 {
+  bottom: 50px;
+}
 }
 
 

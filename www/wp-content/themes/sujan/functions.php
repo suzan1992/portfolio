@@ -22,6 +22,7 @@ function sujan_ulistic_scripts()
 	wp_enqueue_script('sujan-fonts.css', get_template_directory_uri() . '/css/fonts.css', array(),  true);
 	wp_enqueue_style('sujan-about-css', get_template_directory_uri() . '/css/about.css', array(), true);
 	wp_enqueue_style('sujan-main-css', get_template_directory_uri() . '/css/main.css', array(), true);
+	wp_enqueue_style('sujan-main-css', get_template_directory_uri() . '/css/responsive_style.css', array(), true);
 	wp_enqueue_style('sujan-style', get_stylesheet_uri());
 	wp_enqueue_script('sujan-bootstrap.min-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(),  true);
 	wp_enqueue_script('sujan-main-js', get_template_directory_uri() . '/js/main.js', array(),  true);
